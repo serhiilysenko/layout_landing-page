@@ -1,0 +1,11 @@
+.main {
+  display: grid;
+  row-gap: 96px;
+  padding: 64px 0 96px;
+  @include contentPaddingInline;
+
+  @include onTablet {
+    padding-block: 120px;
+    row-gap: 120px;
+  }
+}
