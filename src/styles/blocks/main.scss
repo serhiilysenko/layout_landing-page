@@ -3,8 +3,6 @@
   row-gap: 96px;
   padding: 64px 0 96px;
 
-  @include content-padding-inline;
-
   @include on-tablet {
     padding-block: 120px;
     row-gap: 120px;

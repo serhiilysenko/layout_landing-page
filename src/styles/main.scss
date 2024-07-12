@@ -2,6 +2,7 @@
 @import './utils/mixins';
 @import 'blocks/header';
 @import 'blocks/page';
+@import 'blocks/container';
 @import 'blocks/top-bar';
 @import 'blocks/icon';
 @import 'blocks/menu';
@@ -10,3 +11,5 @@
 @import 'blocks/section-title';
 @import 'blocks/recommended';
 @import 'blocks/product';
+@import 'blocks/categories';
+@import 'blocks/category';
