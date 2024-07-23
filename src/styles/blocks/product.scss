@@ -13,6 +13,11 @@
   &__photo {
     width: 100%;
     justify-self: center;
+    object-fit: cover;
+  }
+
+  &__photo:hover {
+    transform: scale(1.2);
   }
 
   &:not(:last-child) {
